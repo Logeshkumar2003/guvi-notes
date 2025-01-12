@@ -616,7 +616,108 @@ a {
     padding: 3px;
 }
 
+.footer-page{
+    background-color: #F7F8FC;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.footer-input-container {
+            position: relative;
+            width: 300px; 
+        }
+.footer-input-container input {
+    background-color: #FFFFFF;
+            width: 100%;
+            padding: 20px;
+            font-size: 14px;
+            border: none;
+            box-sizing: border-box; /* To make padding included in width */
+            border-radius: 12px ;
+        }
+.footer-input-container button {
+            position: absolute;
+            right: 10px; /* Adjust to place the button inside the text box */
+            top: 50%;
+           transform: translateY(-50%);
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 12px;
+            border: none;
+            background-color: #FA7436;
+            color: #FFFFFF;
+            padding-right: 25px;
+            padding-left: 25px;
+            font-family: Sans-Serif;
+        }
+        
+       
+.footer-input-page{
+    background-color: #FA7436;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin-bottom: 100px;
+}
+.footer-input-heading{
+    color: #FFFFFF;
+    font-family: Volkhov;
+    font-size: 27px;
+    font-weight: 800;
+}
+        
+ .footer-page-info{
+     display: flex;
+     justify-content: space-around;
+     
+ } 
+ .footer-page-info ul{
+     list-style: none;
+     margin-right: 20px;
+ }
+ .footer-page-info li{
+      margin-bottom: 19px;
+ }
 
+ .footer-page-info ul li a{
+      text-decoration: none;
+      color: #666666;
+      font-size: 17px;
+ }
+        
+  .aboutUs-part-heading{
+     color: black;
+  }   
+  .aboutUs-part-para{
+      color: #666666;
+  }
+  .company-part-headingn{
+      color: black;
+      font-family: Sans-Serif;
+  }
+  .contactUs-part-heading{
+      color: black;
+      font-family: Sans-Serif;
+  }
+  .more-part-heading{
+      color: black;
+      font-family: Sans-Serif;
+  }
+   
+hr {
+    color: black;
+    border: 2px solid black; 
+    margin: 20px 0;
+}
 
 
 
